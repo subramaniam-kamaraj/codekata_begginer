@@ -1,1 +1,1 @@
-# codekata_begginer
+# codekata_beginner
