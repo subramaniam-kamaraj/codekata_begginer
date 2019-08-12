@@ -1,13 +1,16 @@
-year=int(input())					#Enter year in number
+N=input()			#Enter year in number
 
-if year%4==0:
-	if year%100==0:
-		if year%400==0:
-			print("yes")
+if N.isdigit()==True:
+	N=int(N)
+	if N%4==0:
+		if N%100==0:
+			if N%400==0:
+				print("yes")
+			else:
+				print("no")
 		else:
-			print("no")
+			print("yes")
 	else:
-		print("yes")
+		print("no")
 else:
-	print("no")
-	
+	print("invalid input")
