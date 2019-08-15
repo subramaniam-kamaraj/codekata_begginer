@@ -6,6 +6,6 @@ if n.isdigit()==True:
         for i in range(1,n+1):
             a.append(int(input()))
         a.sort()
-        print(a)                                       #minimum of array
+        print(a)                                       #sorting of array
     else:
           print("invalid")
